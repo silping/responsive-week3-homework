@@ -4,24 +4,31 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 540px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 80px !important;
   }
-  .work-title {
+  h2 {
+    text-align: center;
     margin-top: 20px;
     font-size: 38px;
   }
-  .work-img {
-    margin-top: 20px;
+  .homepage-paragraph {
+    text-align: center !important;
+  }
+  .homepage-img {
+    display: none;
+  }
+  .homepage-text {
+    text-align: center;
   }
 }
+
 body {
   margin-top: 100px;
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
   margin: 0;
@@ -47,6 +54,9 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
+}
+.greeting {
   text-align: center;
 }
 .work-title {
@@ -110,7 +120,7 @@ p {
 
 .launch-app-links {
   display: inline-block;
-  margin: 20px;
+  margin: 10px 20px 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
